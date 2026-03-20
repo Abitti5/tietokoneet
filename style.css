@@ -8,6 +8,7 @@ body {
 .main {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto;
     gap: 20px;
     padding: 20px;
 }
