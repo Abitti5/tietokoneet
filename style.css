@@ -3,3 +3,44 @@ body {
     color: white;
     font-family: Arial, sans-serif;
 }
+
+/* KOKO SIVU */
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.header {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.nav {
+    grid-column: 1 / 3;
+    display: flex;
+    gap: 10px;
+}
+.box {
+    border: 2px solid white;
+    padding: 20px;
+}
+.big {
+    min-height: 200px;
+}
+
+.side {
+    min-height: 200px;
+}
+.button {
+    padding: 10px 15px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #00ccff;
+    color: black;
+}
